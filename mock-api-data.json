@@ -1,0 +1,120 @@
+{
+  "user": [
+    {
+      "name": "Prajakta Alkurn",
+      "mobNumber": "1234567890",
+      "age": 23,
+      "dob": "28-09-2000",
+      "email": "prajakta.alkurn@gmail.com",
+      "password": "123456",
+      "address": {
+        "addLine1": "48, L.I.T. road",
+        "addLine2": "Ramnagar",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "zipCode": "440033"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "gender": "Female",
+      "aboutYou": "Frontend dev....",
+      "uploadPhoto": "image.jpeg",
+      "agreetc": true,
+      "role": "seller",
+      "id": "1"
+    },
+    {
+      "name": "Prajakta Alkurn",
+      "mobNumber": "1234567890",
+      "age": 23,
+      "dob": "28-09-2000",
+      "email": "prajudharpure@gmail.com",
+      "password": "12345678",
+      "address": {
+        "addLine1": "48, L.I.T. road",
+        "addLine2": "Ramnagar",
+        "city": "Nagpur",
+        "state": "Maharashtra",
+        "zipCode": "440033"
+      },
+      "language": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "gender": "Female",
+      "aboutYou": "Frontend dev....",
+      "uploadPhoto": "image.jpeg",
+      "agreetc": true,
+      "role": "admin",
+      "id": "2"
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "image.jpeg",
+      "productDesc": "Fugiat labore fugiat do laborum velit quis ut quis reprehenderit incididunt id irure consequat ad. Quis ullamco nulla voluptate eu minim. Dolore exercitation nisi exercitation do. Adipisicing culpa fugiat cupidatat excepteur fugiat proident ad dolore eu aliqua culpa. Do cillum magna ut consectetur irure proident ea minim veniam minim ullamco qui consectetur eu.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": "2",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "image.jpeg",
+      "productDesc": "Fugiat labore fugiat do laborum velit quis ut quis reprehenderit incididunt id irure consequat ad. Quis ullamco nulla voluptate eu minim. Dolore exercitation nisi exercitation do. Adipisicing culpa fugiat cupidatat excepteur fugiat proident ad dolore eu aliqua culpa. Do cillum magna ut consectetur irure proident ea minim veniam minim ullamco qui consectetur eu.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "publish"
+    },
+    {
+      "id": "3",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "image.jpeg",
+      "productDesc": "Fugiat labore fugiat do laborum velit quis ut quis reprehenderit incididunt id irure consequat ad. Quis ullamco nulla voluptate eu minim. Dolore exercitation nisi exercitation do. Adipisicing culpa fugiat cupidatat excepteur fugiat proident ad dolore eu aliqua culpa. Do cillum magna ut consectetur irure proident ea minim veniam minim ullamco qui consectetur eu.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "draft"
+    },
+    {
+      "id": "4",
+      "name": "Polyester Door Curtain",
+      "uploadPhoto": "image.jpeg",
+      "productDesc": "Fugiat labore fugiat do laborum velit quis ut quis reprehenderit incididunt id irure consequat ad. Quis ullamco nulla voluptate eu minim. Dolore exercitation nisi exercitation do. Adipisicing culpa fugiat cupidatat excepteur fugiat proident ad dolore eu aliqua culpa. Do cillum magna ut consectetur irure proident ea minim veniam minim ullamco qui consectetur eu.",
+      "mrp": "1000",
+      "dp": "499",
+      "status": "inactive"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 3,
+      "sellerId": 2,
+      "product": {
+        "id": 1,
+        "name": "Polyester Door Curtain",
+        "uploadPhoto": "image.jpeg",
+        "productDesc": "Qui veniam laboris elit irure aliqua est incididunt ullamco. Qui Lorem mollit Lorem magna amet amet ex. Fugiat aute consequat ipsum reprehenderit do anim aute do mollit consectetur sit veniam ipsum ad. In duis reprehenderit officia aliquip elit. Laboris elit aute duis exercitation commodo sit proident dolore et sunt commodo. In est deserunt ea occaecat est minim. Adipisicing non fugiat veniam velit dolore commodo irure nostrud laboris quis fugiat ea qui commodo.",
+        "mrp": "1000",
+        "dp": "499",
+        "status": "publish"
+      },
+      "deliveryAddress": {
+        "id": 0,
+        "addLine1": "48, L.I.T. road",
+        "addLine2": "Ramnagar",
+        "city": "Nagpur",
+        "state": "choose",
+        "zipCode": 440033
+      },
+      "contact": "9876543219",
+      "dateTime": "12/03/2024"
+    }
+  ]
+}
